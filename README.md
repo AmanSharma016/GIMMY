@@ -8,3 +8,5 @@ HERE IS THE YT LINK FOR THE YT CHANNEL WHERE I HAVE GOTTEN INSPIRATION TO CREATE
 https://youtu.be/_rWKTxvTUzQ?si=DpXrlE4Bmz_dhpH3
 
 https://github.com/WebDesignMastery/Fitclub_25-07-23
+
+@Web Design Mastery
