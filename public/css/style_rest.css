@@ -1,0 +1,22 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 350%;
+    font-weight: bolder;
+}
+
+/* .program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.programs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);  
+    gap: 1.5rem;
+    margin-left: -3.5rem;
+}
+

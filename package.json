@@ -1,0 +1,22 @@
+{
+  "name": "gimmy",
+  "version": "1.0.0",
+  "description": "KOI COPY WRITE NHI H BUSS HO SKE TOH SHOUT DE DENA DONO LOGO KO!!  OPEN SOURCE PROJECTs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "aman sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}

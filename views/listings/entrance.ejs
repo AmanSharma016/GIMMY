@@ -1,0 +1,48 @@
+<% layout("/layouts/boilerplate") %>
+
+<link rel="stylesheet" href="/css/entrance.css">
+<body>
+    <!-- signup -->
+    <div class="container novalidate" id="signup-container">
+        <h2>Signup</h2>
+        <form action="/signup" method="POST">
+            <div class="form-group">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Signup</button>
+        </form>
+        <div class="toggle-btn">
+            Already have an account? <a href="#" onclick="toggleForm()">Login here</a>
+        </div>
+    </div>
+
+    <!-- login -->
+    <div class="container novalidate" id="login-container" style="display: none;">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="login-username">Email</label>
+                <input type="text" id="login-username" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <div class="toggle-btn">
+            Don't have an account? <a href="#" onclick="toggleForm()">Signup here</a>
+        </div>
+    </div>
+
+    <script src="/js/entrance.js"></script>
+</body>
